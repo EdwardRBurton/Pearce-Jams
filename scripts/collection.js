@@ -7,9 +7,6 @@ var buildCollectionItemTemplate = function() {
     '      <a class="album-name" href="album.html"> The Colors </a>' +
     '      <br/>' +
     '      <a class="album-name" href="album.html"> Pablo Picasso </a>' +
-    '      <br/>' +
-    '      X songs' +
-    '      <br/>' +
     '    </p>' +
     '  </div>' +
     '</div>';
@@ -21,7 +18,7 @@ $(window).load(function() {
   // clear the content from innerHTML
   $collectionContainer.empty();
   // insets collectionItemTemplate into the innerHTML of collectionContainer
-  for (var i = 0; i < 1; i++) {
+  for (var i = 0; i < 3; i++) {
     var $newThumbnail = buildCollectionItemTemplate();
     $collectionContainer.append($newThumbnail);
   }
