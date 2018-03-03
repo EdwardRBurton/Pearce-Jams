@@ -1,5 +1,5 @@
 body.landing {
-  background-color: rgb(174,49,43);
+  background-color: rgba(174, 49, 43, 0.9);
   /* sets the background color to an RGB value (see below) */
 }
 
@@ -13,8 +13,10 @@ body.landing {
   background-position: center center;
   background-size: cover;
 }
-
-#header-link, .hero-content .hero-title {
+  #header-link{
+    color: white;
+  }
+ .hero-content .hero-title {
   position: absolute;
   /* positioning will be explained in a resource */
   top: 40%;
